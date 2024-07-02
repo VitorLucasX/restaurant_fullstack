@@ -94,19 +94,11 @@ public/
 # Mac system files
 .DS_Store
 
-# Environment variables file
-.env
-.env.test
-
 # PM2 logs and pids
 .pm2/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variable files
-.env.*
-.env.local
 
 # nodemon binary for unix and mac
 .nodemonignore
