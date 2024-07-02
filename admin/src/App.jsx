@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar/Navbar"
-import Sidebar from "./components/Sidebar/Sidebar"
+import Navbar from "./components/Navbar/Navbar";
+import Sidebar from "./components/Sidebar/Sidebar";
 import { Route, Routes } from 'react-router-dom';
 import Add from "./pages/Add/Add";
 import List from "./pages/List/List";
@@ -9,7 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
-  const url = "https://restaurant-backend-7pd7.onrender.com"
+  const url = "https://restaurant-backend-i8x6.onrender.com";
+  
   return (
       <div>
           <ToastContainer />
@@ -24,7 +25,7 @@ function App() {
               </Routes>
           </div>
       </div>
-  )
+  );
 }
 
-export default App
+export default App;

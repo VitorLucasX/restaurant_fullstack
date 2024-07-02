@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
 import './Orders.css';
 import axios from 'axios';
@@ -89,6 +90,10 @@ const Orders = ({ url }) => {
       </div>
     </div>
   );
+};
+
+Orders.propTypes = {
+  url: PropTypes.string.isRequired,
 };
 
 export default Orders;

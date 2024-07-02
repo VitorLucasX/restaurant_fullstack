@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import './List.css';
 import axios from 'axios';
@@ -60,6 +61,10 @@ const List = ({ url }) => {
       </div>
     </div>
   );
+};
+
+List.propTypes = {
+  url: PropTypes.string.isRequired,
 };
 
 export default List;
